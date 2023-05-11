@@ -1,0 +1,61 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.contents{
+  margin: 2.5% 5%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px, rgba(0, 0, 0, 0.05) 0px -1px 1px;
+}
+
+.contents h3{
+  width: 100%;
+  color: gray;
+  text-align: center;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.error-list{
+  color: red;
+}
+
+.input-container label{
+  color: gray;
+  font-weight: 500;
+}
+
+input{
+  appearance: none;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+}
+
+button{
+  padding: 1rem;
+  outline: none;
+  border: solid gray 1px;
+  font-weight: 600;
+  opacity: 1;
+}
+
+button:hover{
+  opacity: .8;
+  cursor: pointer;
+}
+
+.result{
+  user-select: none;
+  margin: .75rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  border: solid 1px;
+}
